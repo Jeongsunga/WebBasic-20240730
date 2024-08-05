@@ -7,7 +7,7 @@
     - 
     - 
     - 
-    - sybol
+    - symbol
 
     객체 타입
     - 
