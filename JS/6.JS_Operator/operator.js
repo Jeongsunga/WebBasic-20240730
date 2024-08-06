@@ -124,28 +124,34 @@ result = number > 0 ? '양수' :
         (number < 0 ? '음수' : 'ZERO');
 
 /*
-    논리 연산자 : 
+    논리 연산자 : 우항과 좌항의 피연산자를 조합
     - || : 좌항과 우항 중 하나라도 true면 true, 그렇지 않으면 false
     - && : 좌항과 우항이 모두 true 이면 true, 그렇지 않으면 false
     - ! : 우항을 부정, 우항이 true이면 false, false이면 true
 */
-
-
+console.log(true && true);
+console.log(true || false);
+console.log(true && 10);  // 10
+console.log(false && 10);  // false  
+console.log(0 && 10);  // 0
+console.log('고길동'||true);  // 고길동
 
 /*
-    - 
+    - && 또는 || 연산의 결과가 논리 값이 아닐 수 있음
 */
 
 
 
 /*
-    쉼표 연산자 : 
+    쉼표 연산자 : 왼쪽 피연산자부터 차례로 피연산자를 연산
 */
-
+var x, y, z;
+x = 1, y = 2, z = 3;
 
 
 /*
-    typeof 연산자 : 
+    typeof 연산자 : 우항의 데이터 및 변수의 타입을 문자열로 반환
 */
-
+var type = typeof x;
+console.log(type ==='number');  // true
 
