@@ -73,5 +73,5 @@ console.log('==============================');
     - true || data => true
     - false || data => data
 */
-console.log(true && '홍길동');
+console.log(true && '고길동');
 
