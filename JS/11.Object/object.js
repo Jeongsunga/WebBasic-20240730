@@ -136,6 +136,13 @@ var soonJong = {
     age: goJong.age,
     address: goJong.address
 };
+
+var soonJong = {};
+for(var key in goJong){
+    soonJong[key] = goJong[key];
+}
+
+var soonJong = {...goJong};
 soonJong.name = '이척';
 console.log(soonJong);
 console.log(goJong);
