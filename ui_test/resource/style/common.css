@@ -1,0 +1,122 @@
+@font-face {
+    font-family: kakao;
+    src: url(../font/KakaoOTFRegular.otf);
+}
+
+body {
+    font-family: kakao, sans-serif;
+    margin: 0px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1900px;
+    height: 100px;
+}
+
+.first_line {
+    display: flex;
+}
+
+.second_line {
+    display: flex;
+    margin-top: 16px;
+}
+
+.box_news {
+    background-color: #f3f3f3;
+    width: 776px;
+    height: 126px;
+    padding: 36px;
+    margin: 0 8px;
+    border-radius: 20px;
+}
+
+.small_box_news {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    margin: 0 0 0 16px;
+    padding: 36px 40px;
+    width: 480px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+.icon_box {
+    display: inline-block;
+    vertical-align: top;
+    width: 38px;
+    height: 38px;
+    margin-right: 12px;
+}
+
+.box_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.side_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.news_link {
+    text-decoration: none;
+    color: black;
+    margin-top: 12px;
+    font-size: 26px;
+    line-height: 38px;
+    overflow: hidden;
+}
+
+.cate_box {
+    margin-top: 2.5px;
+    padding: 4px 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    line-height: 25px;
+}
+
+.date_box {
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 38px;
+}
+
+.news_text {
+    width: 100px;
+    text-align: right;
+    line-height: 38px;
+    font-size: 17px;
+    letter-spacing: -.5px;
+    display: flex;
+    position: relative;
+}
+
+.link_title {
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -.6px;
+    font-weight: 400;
+}
+
+.link_button{
+    width: 23px;
+    height: 23px;
+    
+    background-color: black;
+    color: white;
+    border-radius: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 6px;
+    left: 65px;
+}
